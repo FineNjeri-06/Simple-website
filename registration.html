@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="cat.css">
+<div class="content">
+    <h2> STUDENT REGISTRATION FORM </h2>
+    <form action="#" method="post">
+        <fieldset>
+            <legend> Personal Details </legend>
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname"><br>
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob"><br>
+            <label>Gender:</label><br>
+            <label><input type="radio" name="gender" value="male"> Male</label><br>
+            <label><input type="radio" name="gender" value="female"> Female</label><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone"><br>
+        </fieldset>
+        <fieldset>
+            <legend> Course Selection </legend>
+            <label for="course">Select Course:</label><br>
+            <select id="course" name="course">
+                <option value="IT101">Computer Packages</option>
+                <option value="IT102">Web Design</option>
+                <option value="IT103">Networking (CCNA)</option>
+                <option value="BUS101">Business Management</option>
+                <option value="MM101">Graphic Design</option>
+                <option value="MM102">Video Editing</option>
+                <option value="PM101">Project Management</option>
+            </select><br>
+        </fieldset>
+        <fieldset>
+            <legend> Skills </legend>
+            <label><input type="checkbox" name="skills" value="typing"> typing</label><br>
+            <label><input type="checkbox" name="skills" value="computer"> Basic Computer Skills</label><br>
+            <label><input type="checkbox" name="skills" value="programming"> Programming</label><br>
+            <label><input type="checkbox" name="skills" value="design"> Graphic Design</label><br>
+        </fieldset>
+        <fieldset>
+            <legend> Additional Information </legend>
+            <label for="information">Additional Information:</label><br>
+            <textarea id="information" name="information" rows="5" cols="60"></textarea>
+        </fieldset>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+    <p><a href="index.html" class="btn">Back to Home</a></p>
+</div>

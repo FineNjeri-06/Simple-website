@@ -1,0 +1,135 @@
+/* TO BE SHARED BY ALL THE HTML PAGES*/
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #222;
+
+}
+
+header {
+    background-color: #0970d8;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #222;
+    text-align: center;
+    padding: 4px;
+}
+
+nav a{
+    color: whitesmoke;
+    margin:0 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #0970d8;
+}
+
+.content{
+    width: 80%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    padding: 16px;
+}
+
+h2{
+    color:#00468c;
+    border-bottom: 3px solid #00468c;
+    padding-bottom: 4px;
+}
+
+h3{
+    color:#222;
+}
+
+footer{
+    background-color: #222222;
+    color: whitesmoke;
+    text-align: center;
+    padding: 40px;
+    margin-top: 20px;
+
+}
+footer p{
+    margin: 4px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+    background-color: #0970d8;
+    color: whitesmoke;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+fieldset{
+    margin-bottom: 15px; padding: 10px;
+    padding: 10px;
+    border: 1px solid #00468c;
+    border-radius: 5px;
+}
+
+legend{
+    color:#222;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+input[type=text], input[type=email], input[type=date], select, textarea{ width: 50%;
+    padding: 6px;
+    margin: 4px 0;
+    box-radius: 4px;}
+
+input[type=submit], input[type=reset] {
+    background-color: #00468c;
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+input[type=reset] {
+    background-color: gray;
+}
+input[type=submit]:hover {
+    background-color: gold;
+    color: black;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+li{
+    margin-bottom: 8px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #00468c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: #00468c;
+    color: black;
+}
